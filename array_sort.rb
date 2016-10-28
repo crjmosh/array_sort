@@ -1,9 +1,3 @@
-require 'pry'
-require 'babbler'
-
-puts Babbler.babble
-binding.pry
-
 def main_menu()
 	puts "Enter numbers for your array:"
 	numbers = gets.strip
